@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package com.example.war.controller;
 
 import java.time.LocalTime;
 import java.util.List;
@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.model.Registration;
-import com.example.demo.service.StudentService;
+import com.example.war.model.Registration;
+import com.example.war.service.StudentService;
 
 @RestController
 @RequestMapping(value = "/home")

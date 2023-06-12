@@ -1,4 +1,4 @@
-package com.example.demo.model;
+package com.example.war.model;
 
 import jakarta.persistence.*;
 
@@ -8,9 +8,9 @@ import jakarta.persistence.*;
 public class Registration {
  
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
-	@Column(name = "id")
-	private int id;
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "student_id")
+	private int student_id;
 	
 	@Column(name = "name")
 	private String studentName;
@@ -18,12 +18,12 @@ public class Registration {
 	@Column(name = "age")
 	private int age;
 
-	public int getId() {
-		return id;
+	public int getStudent_id() {
+		return student_id;
 	}
 
-	public void setId(int id) {
-		this.id = id;
+	public void setStudent_id(int student_id) {
+		this.student_id = student_id;
 	}
 
 	public String getStudentName() {

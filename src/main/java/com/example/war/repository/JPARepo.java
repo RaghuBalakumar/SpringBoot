@@ -1,7 +1,7 @@
-package com.example.demo.repository;
+package com.example.war.repository;
 
 import org.springframework.stereotype.Repository;
-import com.example.demo.model.Registration;
+import com.example.war.model.Registration;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 @Repository

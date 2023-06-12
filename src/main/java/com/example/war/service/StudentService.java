@@ -1,4 +1,4 @@
-package com.example.demo.service;
+package com.example.war.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -8,9 +8,9 @@ import org.springframework.boot.context.config.ConfigDataResourceNotFoundExcepti
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Service;
 
-import com.example.demo.Exception.ResourceNotFoundException;
-import com.example.demo.model.Registration;
-import com.example.demo.repository.JPARepo;
+import com.example.war.Exception.ResourceNotFoundException;
+import com.example.war.model.Registration;
+import com.example.war.repository.JPARepo;
 
 @Service
 public class StudentService {
